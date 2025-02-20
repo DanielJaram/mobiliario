@@ -1,0 +1,44 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d7a4a0; /* Color del logo */
+    color: #fff;
+    text-align: center;
+  
+    .hero-content {
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+  
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+  
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #fff;
+        color: #d7a4a0;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: 0.3s;
+  
+        &:hover {
+          background: #b58382;
+          color: #fff;
+        }
+      }
+    }
+  }
+  

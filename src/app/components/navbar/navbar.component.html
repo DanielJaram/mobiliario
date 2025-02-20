@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Happy Art">
+    </div>
+    
+    <ul class="nav-links" [class.active]="menuOpen">
+      <li><a routerLink="/">Inicio</a></li>
+      <li><a routerLink="/catalogo">Catálogo</a></li>
+      <li><a routerLink="/contacto">Contacto</a></li>
+      <li><a routerLink="/login" class="btn">Iniciar Sesión</a></li>
+    </ul>
+  
+    <button class="menu-toggle" (click)="toggleMenu()">
+      ☰
+    </button>
+  </nav>
+  
